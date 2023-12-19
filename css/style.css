@@ -1,0 +1,81 @@
+:root {
+    --color1: #A6DAF5;
+    --color2: #004248;
+    --color3: #0085e8;
+}
+
+header,
+footer,
+section {
+    padding: 100px 0;
+}
+
+header {
+    padding: 200px 0;
+}
+
+header,
+footer {
+    background: var(--color2);
+    background: linear-gradient(90deg, var(--color2) 0%, var(--color3) 100%);
+}
+
+/* .container {
+    padding: 100px 100px;
+} */
+
+.itd_play {
+    background-color: var(--color1);
+    width: 200px;
+    height: 60px;
+    /* border-radius: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto;
+    transition: all 0.2s ease;
+}
+
+.itd_play:hover {
+    background-color: var(--color3);
+    color: white;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.color1{
+    color: var(--color1);
+}
+.color2{
+    color: var(--color2);
+}
+.color3{
+    color: var(--color3);
+}
+
+.bg1{
+    background-color: var(--color1);
+}
+.bg2{
+    background-color: var(--color2);
+}
+.bg3{
+    background-color: var(--color3);
+}
